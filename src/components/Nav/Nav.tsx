@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Links from "./Links"
 
 export default function Nav() {
     return (
@@ -6,16 +6,16 @@ export default function Nav() {
             <h1 className="text-3xl">Victor<span className="text-indigo-800">Guimaraes</span></h1>
             <ul className="flex gap-10">
                 <li>
-                    <Link href={"/"}>Inicio</Link>
+                    <Links href="/">Início</Links>
                 </li>
                 <li>
-                    <Link href={"/sobre"}>Sobre</Link>
+                    <Links href={"/sobre"}>Sobre</Links>
                 </li>
                 <li>
-                    <Link href={"/projetos"}>Projetos</Link>
+                    <Links href={"/projetos"}>Projetos</Links>
                 </li>
                 <li>
-                    <Link href={"/contato"}>Contato</Link>
+                    <Links href={"/contato"}>Contato</Links>
                 </li>
             </ul>
         </nav>
