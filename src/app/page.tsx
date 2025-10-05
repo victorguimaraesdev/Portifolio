@@ -12,7 +12,7 @@ export default function Home() {
             <img className="h-14 w-14" src="assets/incon/github.png" alt=""/>
           </Icones>
           <Icones>
-            <img className="h-14 w-14" src="assets/incon/instagram.png" alt=""/>
+            <img className="h-14 w-14" src="assets/incon/linkedin.png" alt=""/>
           </Icones>
         </div>
       </div>
